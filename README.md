@@ -2,6 +2,10 @@
 Ukon is a unit conversion calculator library.
 You can make your own unit conversion settings easily with it.
 
+# Installation
+```
+composer require burobo/ukon
+```
 # Usage
 1. Create your own Unit class.
    ```php
