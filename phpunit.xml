@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="vendor/autoload.php">
+  <php>
+    <env name="DOMAIN" value="tests/Stubs/locale" />
+  </php>
+  <testsuites>
+    <testsuite name="All tests">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+<filter>
+  <whitelist processUncoveredFilesFromWhitelist="true">
+    <directory suffix=".php">./src</directory>
+  </whitelist>
+</filter>
+</phpunit>

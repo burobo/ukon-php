@@ -1,0 +1,30 @@
+{
+    "name": "burobo/ukon",
+    "description": "Unit conversion library.",
+    "keywords": ["calculator", "unit", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "burobo",
+            "email": "boronobu@gmail.com",
+            "homepage": "http://github.com/burobo"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ukon\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
