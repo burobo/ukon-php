@@ -60,7 +60,7 @@ You can make your own unit conversion settings easily with it.
 
    ```
 
-1 . Now you can convert and calculate your own unit!
+1. Now you can convert and calculate your own unit!
 
    ```php
 
